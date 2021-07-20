@@ -71,10 +71,52 @@
         <!--infoView-->
         <scene sceneID="ayU-2M-rbp">
             <objects>
-                <viewController title="infoView" id="5iw-k2-V5k" sceneMemberID="viewController">
+                <viewController title="infoView" id="5iw-k2-V5k" customClass="infoViewViewController" customModule="HomelessWireframe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Re-CB-7Zd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dd6-rn-79F">
+                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem image="homekit" catalog="system" id="fYD-PR-Cfr"/>
+                                    <tabBarItem image="info.circle" catalog="system" id="ykZ-r8-tsS"/>
+                                    <tabBarItem image="mappin.and.ellipse" catalog="system" id="Oqa-uC-c8h"/>
+                                    <tabBarItem image="book" catalog="system" id="la7-1H-4zi"/>
+                                </items>
+                            </tabBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Information" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W8I-8y-fJq">
+                                <rect key="frame" x="122" y="76" width="170" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zec-u2-lvS">
+                                <rect key="frame" x="31" y="177" width="352" height="243"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non nisl sit amet mauris eleifend venenatis. Aenean eget varius quam, faucibus scelerisque sem. Nam diam mauris, vehicula at sapien sed, facilisis auctor arcu. In suscipit rutrum facilisis. Nulla dolor mauris, ultrices sed dignissim at, tempus sit amet nisl. Suspendisse eleifend dignissim ligula ut lacinia. Vivamus pretium aliquet massa, sit amet suscipit massa mollis id. Mauris iaculis augue nec lacus cursus, varius malesuada enim hendrerit. Vestibulum vel auctor quam. Ut venenatis interdum nulla, vel imperdiet est suscipit id. Praesent id tempus sapien, in suscipit tellus.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HIl-nv-0dY">
+                                <rect key="frame" x="87" y="428" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AHl-dI-9x3">
+                                <rect key="frame" x="31" y="564" width="352" height="243"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non nisl sit amet mauris eleifend venenatis. Aenean eget varius quam, faucibus scelerisque sem. Nam diam mauris, vehicula at sapien sed, facilisis auctor arcu. In suscipit rutrum facilisis. Nulla dolor mauris, ultrices sed dignissim at, tempus sit amet nisl. Suspendisse eleifend dignissim ligula ut lacinia. Vivamus pretium aliquet massa, sit amet suscipit massa mollis id. Mauris iaculis augue nec lacus cursus, varius malesuada enim hendrerit. Vestibulum vel auctor quam. Ut venenatis interdum nulla, vel imperdiet est suscipit id. Praesent id tempus sapien, in suscipit tellus.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="us3-Eh-A8P"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -86,7 +128,7 @@
         <!--mapView-->
         <scene sceneID="QnC-AA-4Ev">
             <objects>
-                <viewController title="mapView" id="zyH-9U-hZ8" sceneMemberID="viewController">
+                <viewController title="mapView" id="zyH-9U-hZ8" customClass="mapViewViewController" customModule="HomelessWireframe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lzj-xf-9SY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -180,7 +222,7 @@
         <!--listView-->
         <scene sceneID="5CG-ou-4xg">
             <objects>
-                <viewController title="listView" id="wcc-vP-WeA" sceneMemberID="viewController">
+                <viewController title="listView" id="wcc-vP-WeA" customClass="listViewViewController" customModule="HomelessWireframe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ByU-eo-9Zf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -222,7 +264,7 @@
                                 <rect key="frame" x="141" y="287" width="36" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.86087566609999999" green="0.626306472" blue="0.83010657740000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" image="suit.heart.fill" catalog="system">
+                                <state key="normal" image="heart" catalog="system">
                                     <color key="titleColor" name="AccentColor"/>
                                 </state>
                             </button>
@@ -275,7 +317,7 @@
                                 <rect key="frame" x="141" y="646" width="36" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.86087566609999999" green="0.626306472" blue="0.83010657740000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" image="suit.heart" catalog="system">
+                                <state key="normal" image="heart.fill" catalog="system">
                                     <color key="titleColor" name="AccentColor"/>
                                 </state>
                             </button>
@@ -304,7 +346,7 @@
                                 <rect key="frame" x="135" y="424" width="36" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.86087566609999999" green="0.626306472" blue="0.83010657740000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" image="suit.heart.fill" catalog="system">
+                                <state key="normal" image="heart" catalog="system">
                                     <color key="titleColor" name="AccentColor"/>
                                 </state>
                             </button>
@@ -312,7 +354,7 @@
                                 <rect key="frame" x="141" y="764" width="36" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.86087566609999999" green="0.626306472" blue="0.83010657740000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" image="suit.heart" catalog="system">
+                                <state key="normal" image="heart.fill" catalog="system">
                                     <color key="titleColor" name="AccentColor"/>
                                 </state>
                             </button>
@@ -329,14 +371,14 @@
     <resources>
         <image name="PA MAP" width="770" height="433"/>
         <image name="book" catalog="system" width="128" height="102"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="link" catalog="system" width="128" height="122"/>
         <image name="map.fill" catalog="system" width="128" height="110"/>
         <image name="mappin.and.ellipse" catalog="system" width="118" height="128"/>
         <image name="pin.fill" catalog="system" width="119" height="128"/>
-        <image name="suit.heart" catalog="system" width="128" height="109"/>
-        <image name="suit.heart.fill" catalog="system" width="128" height="109"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

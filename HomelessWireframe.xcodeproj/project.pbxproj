@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E017A4F426A743A8001323E4 /* infoViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E017A4F326A743A8001323E4 /* infoViewViewController.swift */; };
+		E017A4F626A743E3001323E4 /* mapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E017A4F526A743E3001323E4 /* mapViewViewController.swift */; };
+		E017A4F826A74413001323E4 /* listViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E017A4F726A74413001323E4 /* listViewViewController.swift */; };
 		E0FF4B0826A5D0D60063934C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF4B0726A5D0D60063934C /* AppDelegate.swift */; };
 		E0FF4B0A26A5D0D60063934C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF4B0926A5D0D60063934C /* SceneDelegate.swift */; };
 		E0FF4B0C26A5D0D60063934C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FF4B0B26A5D0D60063934C /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E017A4F326A743A8001323E4 /* infoViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoViewViewController.swift; sourceTree = "<group>"; };
+		E017A4F526A743E3001323E4 /* mapViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewViewController.swift; sourceTree = "<group>"; };
+		E017A4F726A74413001323E4 /* listViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listViewViewController.swift; sourceTree = "<group>"; };
 		E0FF4B0426A5D0D60063934C /* HomelessWireframe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomelessWireframe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0FF4B0726A5D0D60063934C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0FF4B0926A5D0D60063934C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +68,9 @@
 				E0FF4B0926A5D0D60063934C /* SceneDelegate.swift */,
 				E0FF4B0B26A5D0D60063934C /* ViewController.swift */,
 				E0FF4B0D26A5D0D60063934C /* Main.storyboard */,
+				E017A4F726A74413001323E4 /* listViewViewController.swift */,
+				E017A4F526A743E3001323E4 /* mapViewViewController.swift */,
+				E017A4F326A743A8001323E4 /* infoViewViewController.swift */,
 				E0FF4B1326A5D0D70063934C /* Assets.xcassets */,
 				E0FF4B1526A5D0D70063934C /* LaunchScreen.storyboard */,
 				E0FF4B1826A5D0D70063934C /* Info.plist */,
@@ -140,7 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E017A4F626A743E3001323E4 /* mapViewViewController.swift in Sources */,
 				E0FF4B1226A5D0D60063934C /* HomelessWireframe.xcdatamodeld in Sources */,
+				E017A4F826A74413001323E4 /* listViewViewController.swift in Sources */,
+				E017A4F426A743A8001323E4 /* infoViewViewController.swift in Sources */,
 				E0FF4B0C26A5D0D60063934C /* ViewController.swift in Sources */,
 				E0FF4B0826A5D0D60063934C /* AppDelegate.swift in Sources */,
 				E0FF4B0A26A5D0D60063934C /* SceneDelegate.swift in Sources */,
