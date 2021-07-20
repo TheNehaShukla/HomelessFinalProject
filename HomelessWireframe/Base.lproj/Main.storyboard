@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--homeView-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HomelessWireframe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="homeView" id="BYZ-38-t0r" customClass="ViewController" customModule="HomelessWireframe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -68,10 +68,25 @@
             </objects>
             <point key="canvasLocation" x="61" y="88"/>
         </scene>
-        <!--View Controller-->
+        <!--infoView-->
+        <scene sceneID="ayU-2M-rbp">
+            <objects>
+                <viewController title="infoView" id="5iw-k2-V5k" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Re-CB-7Zd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="us3-Eh-A8P"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="slB-nH-EJP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="787" y="88"/>
+        </scene>
+        <!--mapView-->
         <scene sceneID="QnC-AA-4Ev">
             <objects>
-                <viewController id="zyH-9U-hZ8" sceneMemberID="viewController">
+                <viewController title="mapView" id="zyH-9U-hZ8" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lzj-xf-9SY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -160,12 +175,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A5M-FO-vMe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="756.52173913043487" y="85.714285714285708"/>
+            <point key="canvasLocation" x="1548" y="88"/>
         </scene>
-        <!--View Controller-->
+        <!--listView-->
         <scene sceneID="5CG-ou-4xg">
             <objects>
-                <viewController id="wcc-vP-WeA" sceneMemberID="viewController">
+                <viewController title="listView" id="wcc-vP-WeA" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ByU-eo-9Zf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -308,7 +323,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rQ0-6s-Fbi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1453.6231884057972" y="87.723214285714278"/>
+            <point key="canvasLocation" x="2309" y="88"/>
         </scene>
     </scenes>
     <resources>
