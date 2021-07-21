@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		95C450F126A86DC9002C2185 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C450EF26A86DC9002C2185 /* MyTableViewCell.swift */; };
 		95C450F226A86DC9002C2185 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95C450F026A86DC9002C2185 /* MyTableViewCell.xib */; };
+		95C450F426A8A586002C2185 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C450F326A8A586002C2185 /* Resource.swift */; };
 		E017A4F426A743A8001323E4 /* infoViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E017A4F326A743A8001323E4 /* infoViewViewController.swift */; };
 		E017A4F626A743E3001323E4 /* mapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E017A4F526A743E3001323E4 /* mapViewViewController.swift */; };
 		E017A4F826A74413001323E4 /* listViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E017A4F726A74413001323E4 /* listViewViewController.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		95C450EF26A86DC9002C2185 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		95C450F026A86DC9002C2185 /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		95C450F326A8A586002C2185 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		E017A4F326A743A8001323E4 /* infoViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoViewViewController.swift; sourceTree = "<group>"; };
 		E017A4F526A743E3001323E4 /* mapViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewViewController.swift; sourceTree = "<group>"; };
 		E017A4F726A74413001323E4 /* listViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listViewViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				95C450F026A86DC9002C2185 /* MyTableViewCell.xib */,
 				E017A4F726A74413001323E4 /* listViewViewController.swift */,
 				E017A4F526A743E3001323E4 /* mapViewViewController.swift */,
+				95C450F326A8A586002C2185 /* Resource.swift */,
 				E017A4F326A743A8001323E4 /* infoViewViewController.swift */,
 				E0FF4B1326A5D0D70063934C /* Assets.xcassets */,
 				E0FF4B1526A5D0D70063934C /* LaunchScreen.storyboard */,
@@ -156,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95C450F426A8A586002C2185 /* Resource.swift in Sources */,
 				E017A4F626A743E3001323E4 /* mapViewViewController.swift in Sources */,
 				95C450F126A86DC9002C2185 /* MyTableViewCell.swift in Sources */,
 				E0FF4B1226A5D0D60063934C /* HomelessWireframe.xcdatamodeld in Sources */,
