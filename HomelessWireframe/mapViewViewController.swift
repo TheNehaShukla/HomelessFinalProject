@@ -43,6 +43,8 @@ class mapViewViewController: UIViewController, UITableViewDelegate, UITableViewD
         // customCell.myHeader.text = "Test"
         customCell.myHeader.text = arrayName[indexPath.row].myHeader
         customCell.myLabel.text = arrayName[indexPath.row].myLabel
+        // Figure out specific .command for link >> customCell.myButton.XXX = arrayName[indexPath.row].myButton
+        
         return customCell
     }
     

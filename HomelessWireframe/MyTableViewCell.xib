@@ -38,6 +38,9 @@
                         <state key="normal" title="View Location" image="map" catalog="system">
                             <color key="titleColor" systemColor="linkColor"/>
                         </state>
+                        <connections>
+                            <action selector="viewLocationClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Mfj-c6-KMT"/>
+                        </connections>
                     </button>
                 </subviews>
             </tableViewCellContentView>

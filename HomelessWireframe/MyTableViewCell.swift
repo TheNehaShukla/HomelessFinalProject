@@ -9,6 +9,8 @@ import UIKit
 
 class MyTableViewCell: UITableViewCell {
     
+    // var linkHere = links
+    
     static let identifier = "MyTableViewCell"
     
     static func nib() -> UINib {
@@ -28,6 +30,13 @@ class MyTableViewCell: UITableViewCell {
     @IBOutlet weak var myHeader: UILabel!
     @IBOutlet weak var myLabel: UILabel!
     @IBOutlet weak var myButton: UIButton!
+    
+    
+    @IBAction func viewLocationClicked(_ sender: Any) {
+       if let url = URL(string: "https://google.com") {
+                    UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                 }
+             }
     
     override func awakeFromNib() {
         super.awakeFromNib()
