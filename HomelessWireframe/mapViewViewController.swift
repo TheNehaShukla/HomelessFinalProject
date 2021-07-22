@@ -36,7 +36,6 @@ class mapViewViewController: UIViewController, UITableViewDelegate, UITableViewD
     var lancasterHeadingsArray = ["Transitional Living Center", "Milagro House", "Water Street Mission"]
     var lancasterLabelsArray = ["Transitional Living Center has an innovative housing approach based on nationally recognized, evidence-based models.", "Milagro House provides education, housing and support services to women and their children who would otherwise be experiencing homelessness.", "Water Street Mission providing basic needs such as food, clothing, and shelter and  restoration in all areas of life."]
 
-    
     var allentownHeadingsArray = ["Allentown Rescue Mission", "Sixth Street Shelter", "Salvation Army"]
     var allentownLabelsArray = ["Allentown Rescue Mission is to rescue, rehabilitate, and restore homeless men through faith-centered programs based on accountability and compassion.", "Sixth Street Shelter provides an essential service to the community as a place for homeless families to find a temporary home and help in preparing for the challenges of a difficult job and rental market.", "Salvation Army provides a variety of services from disaster relief, to alcohol and drug rehab, to veteran services, to homeless shelters."]
     
@@ -79,29 +78,69 @@ class mapViewViewController: UIViewController, UITableViewDelegate, UITableViewD
         
     }
     
+    // default table view set up:
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return pittHeadingsArray.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        /* let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = "Hello World"
-        return cell */ // simple text cell
-        
-        let customCell = tableView.dequeueReusableCell(withIdentifier: MyTableViewCell.identifier, for: indexPath) as! MyTableViewCell
-        // customCell.myHeader.text = "Test"
-        customCell.myHeader.text = pittHeadingsArray[indexPath.row]
-        customCell.myLabel.text = pittLabelsArray[indexPath.row]
-        // Figure out specific .command for link >> customCell.myButton.XXX = arrayName[indexPath.row].myButton
-        
-        return customCell
+        return 1
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 200 // makes cells taller
     }
     
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let customCell = tableView.dequeueReusableCell(withIdentifier: MyTableViewCell.identifier, for: indexPath) as! MyTableViewCell
+        customCell.myHeader.text = "Directions"
+        customCell.myLabel.text = "Click on a star to see places in that area"
 
+        return customCell
+    }
+    
+    
+    @IBAction func pittClicked(_ sender: Any) {
+        
+        func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+            return pittHeadingsArray.count
+        }
+        
+        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+            
+            let customCell = tableView.dequeueReusableCell(withIdentifier: MyTableViewCell.identifier, for: indexPath) as! MyTableViewCell
+            customCell.myHeader.text = pittHeadingsArray[indexPath.row]
+            customCell.myLabel.text = pittLabelsArray[indexPath.row]
+            // Figure out specific .command for link >> customCell.myButton.XXX = arrayName[indexPath.row].myButton
+            
+            return customCell
+        }
+        
+        func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+            return 200 // makes cells taller
+        }
+    }
+    
+    
+    
+    
+    @IBAction func erieClicked(_ sender: Any) {
+        
+        func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+            return erieHeadingsArray.count
+        }
+        
+        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+            
+            let customCell = tableView.dequeueReusableCell(withIdentifier: MyTableViewCell.identifier, for: indexPath) as! MyTableViewCell
+            customCell.myHeader.text = erieHeadingsArray[indexPath.row]
+            customCell.myLabel.text = erieLabelsArray[indexPath.row]
+            // Figure out specific .command for link >> customCell.myButton.XXX = arrayName[indexPath.row].myButton
+            
+            return customCell
+        }
+        
+        func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+            return 200 // makes cells taller
+        }
+    }
+    
     /*
      // MARK: - Navigation
 
