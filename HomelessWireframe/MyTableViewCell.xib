@@ -32,9 +32,9 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afo-be-7vY">
-                        <rect key="frame" x="9" y="170" width="113" height="19"/>
+                        <rect key="frame" x="2" y="169" width="147" height="21"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <state key="normal" title="View Location" image="map" catalog="system">
                             <color key="titleColor" systemColor="linkColor"/>
                         </state>

@@ -71,23 +71,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aO3-iP-WRf">
-                                <rect key="frame" x="0.0" y="197" width="414" height="236"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic1" translatesAutoresizingMaskIntoConstraints="NO" id="aO3-iP-WRf">
+                                <rect key="frame" x="-12" y="208" width="247" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TkD-YR-hte">
-                                <rect key="frame" x="31" y="450" width="352" height="333"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non nisl sit amet mauris eleifend venenatis. Aenean eget varius quam, faucibus scelerisque sem. Nam diam mauris, vehicula at sapien sed, facilisis auctor arcu. In suscipit rutrum facilisis. Nulla dolor mauris, ultrices sed dignissim at, tempus sit amet nisl. Suspendisse eleifend dignissim ligula ut lacinia. Vivamus pretium aliquet massa, sit amet suscipit massa mollis id. Mauris iaculis augue nec lacus cursus, varius malesuada enim hendrerit. Vestibulum vel auctor quam. Ut venenatis interdum nulla, vel imperdiet est suscipit id. Praesent id tempus sapien, in suscipit tellus.
-</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PA Homeless Guide" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lIU-qf-sTd">
                                 <rect key="frame" x="59" y="124" width="296" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic2" translatesAutoresizingMaskIntoConstraints="NO" id="3MG-XB-foB">
+                                <rect key="frame" x="225" y="208" width="189" height="275"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dVM-s3-Iam">
+                                <rect key="frame" x="0.0" y="360" width="228" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TkD-YR-hte">
+                                <rect key="frame" x="32" y="491" width="351" height="363"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">PAHomeless(Guide) hopes to help families, veterans, and youth struggling with homelessness and consolidate resources for individuals, organizations, and schools wanting to combat homelessness in PA. Together, we can make a difference!
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -99,7 +108,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sf1-Xt-3i2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="85.507246376811594" y="2238.6160714285711"/>
+            <point key="canvasLocation" x="85.507246376811594" y="2237.9464285714284"/>
         </scene>
         <!--Map of Shelters and Support Locations-->
         <scene sceneID="V1o-zc-kII">
@@ -109,13 +118,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MAP OF SHELTERS &amp; SUPPORT LOCATIONS" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIj-dh-kML">
-                                <rect key="frame" x="32" y="88" width="362" height="111"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pamap2" translatesAutoresizingMaskIntoConstraints="NO" id="qHN-ve-CqT">
                                 <rect key="frame" x="0.0" y="179" width="414" height="271"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -374,32 +376,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKX-S4-Hsj">
-                                <rect key="frame" x="31" y="163" width="352" height="243"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non nisl sit amet mauris eleifend venenatis. Aenean eget varius quam, faucibus scelerisque sem. Nam diam mauris, vehicula at sapien sed, facilisis auctor arcu. In suscipit rutrum facilisis. Nulla dolor mauris, ultrices sed dignissim at, tempus sit amet nisl. Suspendisse eleifend dignissim ligula ut lacinia. Vivamus pretium aliquet massa, sit amet suscipit massa mollis id. Mauris iaculis augue nec lacus cursus, varius malesuada enim hendrerit. Vestibulum vel auctor quam. Ut venenatis interdum nulla, vel imperdiet est suscipit id. Praesent id tempus sapien, in suscipit tellus.
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mFC-E6-WAE">
-                                <rect key="frame" x="87" y="414" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="statInfo" translatesAutoresizingMaskIntoConstraints="NO" id="mFC-E6-WAE">
+                                <rect key="frame" x="-40" y="613" width="497" height="177"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bD-CB-KyO">
-                                <rect key="frame" x="31" y="550" width="352" height="243"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="35" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKX-S4-Hsj">
+                                <rect key="frame" x="12" y="88" width="392" height="517"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non nisl sit amet mauris eleifend venenatis. Aenean eget varius quam, faucibus scelerisque sem. Nam diam mauris, vehicula at sapien sed, facilisis auctor arcu. In suscipit rutrum facilisis. Nulla dolor mauris, ultrices sed dignissim at, tempus sit amet nisl. Suspendisse eleifend dignissim ligula ut lacinia. Vivamus pretium aliquet massa, sit amet suscipit massa mollis id. Mauris iaculis augue nec lacus cursus, varius malesuada enim hendrerit. Vestibulum vel auctor quam. Ut venenatis interdum nulla, vel imperdiet est suscipit id. Praesent id tempus sapien, in suscipit tellus.
-</string>
+                                <mutableString key="text">According to the U.S. Interagency Council on Homelessness, Pennsylvania has an estimated 13, 375 people experiencing homelessness each day, as of January 2020. Of that total, 155 are family households, 977 are veterans, 716 are unaccompanied young adults (18-24), and 1722 were individuals experiencing chronic homelessness (usich.gov). Ranking 8th in the nation in 2021 based on its homeless population, the issue is imminent in both rural and urban areas (worldpopulationreview.com). 
+
+Moreover, these conditions have been exacerbated by the COVID - 19 pandemic. According to a Census Bureau Survey, 6.7 million adults say they are likely to face eviction in the next 2 months (census.gov). Limited shelter capacities and greater economic consequences pose a major threat to affordable housing. 
+
+The realities of facing homelessness and the pandemic’s influence differ for each individual and family. But, we hope to provide direct assistance to those struggling and to those who’d like to help.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Information" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tpR-IY-sXm">
-                                <rect key="frame" x="122" y="113" width="170" height="42"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Data from Savannah House Charities (2019) " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fDK-iA-bke">
+                                <rect key="frame" x="12" y="791" width="252" height="15"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -411,7 +407,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="akz-ap-H9A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="958" y="2239"/>
+            <point key="canvasLocation" x="957.97101449275374" y="2237.9464285714284"/>
         </scene>
         <!--Map-->
         <scene sceneID="ECP-bO-Xgc">
@@ -457,7 +453,10 @@
         <image name="link" catalog="system" width="128" height="122"/>
         <image name="mappin.and.ellipse" catalog="system" width="118" height="128"/>
         <image name="pamap2" width="920" height="544"/>
+        <image name="pic1" width="600" height="377"/>
+        <image name="pic2" width="413" height="600"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
+        <image name="statInfo" width="1430" height="506"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

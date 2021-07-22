@@ -33,7 +33,7 @@ class mapViewViewController: UIViewController, UITableViewDelegate, UITableViewD
         "Susquehanna Harbor Safe Haven",
         "YWCA Greater Harrisburg"]
     var harrisburgLabelsArray = [
-        "Bethesda Mission is a missionary arm of the local church, reaching out to men, women, and children of all races, nationalities, and creeds, providing the poor and homeless with shelter, food, and clothing.",
+        "Bethesda Mission is a missionary arm of the local church, reaching out to men, women, and children of all races, nationalities, and creeds, and provides the poor and homeless with shelter, food, and clothing.",
         "Susquehanna Harbor Safe Haven offers a continuum of crisis management and homeless solutions: from homelessness prevention to short-term aid to long-term solutions.",
         "YWCA programs offer a continuum of housing options and housing assistance."]
     
@@ -45,7 +45,7 @@ class mapViewViewController: UIViewController, UITableViewDelegate, UITableViewD
         "Mercy Hospice For Women and Children"]
     var phillyLabelsArray = [
         "Sunday Breakfast Rescue Mission provides food to people regardless of gender or any other factors and offers emergency shelters for men as well",
-        "Bethesda Project provides emergency shelter, housing and supportive services for thousands of individuals experiencing homelessness in Philadelphia.",
+        "Bethesda Project provides emergency shelter, housing, and supportive services for thousands of individuals experiencing homelessness in Philadelphia.",
         "Mercy Hospice For Women and Children is a shelter where residents will receive three meals a day, and have access to secure mail service"]
     
     
@@ -57,7 +57,7 @@ class mapViewViewController: UIViewController, UITableViewDelegate, UITableViewD
     var lancasterLabelsArray = [
         "Transitional Living Center has an innovative housing approach based on nationally recognized, evidence-based models.",
         "Milagro House provides education, housing and support services to women and their children who would otherwise be experiencing homelessness.",
-        "Water Street Mission providing basic needs such as food, clothing, and shelter and  restoration in all areas of life."]
+        "Water Street Mission providing basic needs such as food, clothing, and shelter and restoration in all areas of life."]
 
     
     // 5. Allentown
@@ -66,7 +66,7 @@ class mapViewViewController: UIViewController, UITableViewDelegate, UITableViewD
         "Sixth Street Shelter",
         "Salvation Army"]
     var allentownLabelsArray = [
-        "Allentown Rescue Mission is to rescue, rehabilitate, and restore homeless men through faith-centered programs based on accountability and compassion.",
+        "Allentown Rescue's mission is to rescue, rehabilitate, and restore homeless men through faith-centered programs based on accountability and compassion.",
         "Sixth Street Shelter provides an essential service to the community as a place for homeless families to find a temporary home and help in preparing for the challenges of a difficult job and rental market.",
         "Salvation Army provides a variety of services from disaster relief, to alcohol and drug rehab, to veteran services, to homeless shelters."]
     
@@ -78,7 +78,7 @@ class mapViewViewController: UIViewController, UITableViewDelegate, UITableViewD
         "Catherine McAuley Center"]
     var scrantonLabelsArray = [
         "Keystone Mission provides assistance for housing, To-Go Meals and a drug or alcohol rehab program.",
-        "The shelter will provide essentials such as food, clothing, and bathrooms, as well as services such as educational support, counseling, family reunification, and/or preparation for independent living.",
+        "This shelter will provide essentials such as food, clothing, and bathrooms, as well as services such as educational support, counseling, family reunification, and/or preparation for independent living.",
         "Catherine McAuley Center provides temporary shelter for women, children, and individuals in crisis through individualized case management empowering them to secure and maintain safe and affordable, permanent housing."]
     
     
@@ -88,8 +88,8 @@ class mapViewViewController: UIViewController, UITableViewDelegate, UITableViewD
         "Lebanon Rescue Mission",
         "Jubilee Ministries"]
     var hersheyLabelsArray = [
-        "Homeless women and their children. At Agape, we believe that every woman deserves the opportunity for a fresh start. We know that every child needs a safe, clean home to call their own.",
-        "Emergency Shelter for men only. Men's discipleship program, Provides meals and a safe environment.",
+        "At Agape, we believe that every woman deserves the opportunity for a fresh start. We know that every child needs a safe, clean home to call their own.",
+        "Lebanon Rescue Mission is an emergency Shelter for men only. It includes a men's discipleship program, provides meals, and a safe environment.",
         "Jubilee Ministries Homeless Resource Center is a place to go when there is nowhere else to go. It serves as a home-base for those who need a place to stay and assistance to get back into housing."]
     
     // 8. Erie
@@ -97,7 +97,7 @@ class mapViewViewController: UIViewController, UITableViewDelegate, UITableViewD
         "City Mission New Life",
         "The Refuge"]
     let erieLabelsArray = [
-        "New Life Program long-term comprehensive residential recovery program for men committed to making a true change in their lives.",
+        "New Life Program has long-term comprehensive residential recovery program for men committed to making a true change in their lives.",
         "The Refuge is the only emergency shelter in Erie that can keep the entire family unit together by housing them in their own room."]
 
     
