@@ -16,6 +16,17 @@ class listViewViewController: UIViewController {
     }
     
 
+    @IBAction func dhsLink(_ sender: Any) {
+        if let url = URL(string: "https://www.dhs.pa.gov/Services/Other-Services/Pages/Homeless-Assistance.aspx") {
+                        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                     }
+    }
+    
+    @IBAction func natLink(_ sender: Any) {
+        if let url = URL(string: "https://endhomelessness.org/ending-homelessness/policy/") {
+                        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                     }
+    }
     /*
     // MARK: - Navigation
 
